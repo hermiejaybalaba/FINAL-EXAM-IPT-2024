@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+
+#profileImage {
+    border-radius: 50%;      
+    width: 350px;              
+    border: 5px solid red;     
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /
+  }
+  
+  #profileImage:hover {
+    transform: scale(1.05);             
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7);
+    border: 5px solid #ff6347;          
+  }
+  
+ 
+  @media (max-width: 576px) {
+    #profileImage {
+      width: 280px; 
+    }
+  }
+  
