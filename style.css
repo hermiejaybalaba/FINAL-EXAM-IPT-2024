@@ -19,10 +19,7 @@ body {
   border: 5px solid #ff6347;          
 } .rounded-lg {
   border-radius: 15px; /* Adjust this value for more or less rounding */
-}
-
-
-@media (max-width: 759px) {
+} @media (max-width: 759px) {
   #profileImage {
     width: 236px; 
   }
