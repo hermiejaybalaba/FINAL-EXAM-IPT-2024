@@ -10,7 +10,7 @@ body {
   width: 350px;              
   border: 5px solid red;     
   transition: all 0.3s ease; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 #profileImage:hover {
@@ -18,7 +18,7 @@ body {
   box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7);
   border: 5px solid #ff6347;          
 } .rounded-lg {
-  border-radius: 15px; /* Adjust this value for more or less rounding */
+  border-radius: 15px; 
 }
 
 
@@ -26,4 +26,10 @@ body {
   #profileImage {
     width: 230px; 
   }
+}@media (max-width: 871px) {
+  #profileImage {
+    width: 250px; 
+  }
 }
+
+ 
