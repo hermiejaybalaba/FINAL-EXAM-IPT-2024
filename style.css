@@ -22,11 +22,11 @@ body {
 }
 
 
-@media (max-width: 755px) {
+@media (max-width: 758px) {
   #profileImage {
     width: 236px; 
   }
-} @media (min-width: 760px) and (max-width: 958px) {
+} @media (min-width: 758px) and (max-width: 958px) {
   #profileImage {
     width: 280px; 
   }
