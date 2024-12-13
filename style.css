@@ -24,6 +24,6 @@ body {
 
 @media (max-width: 576px) {
   #profileImage {
-    width: 280px; 
+    width: 230px; 
   }
 }
